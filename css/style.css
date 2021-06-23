@@ -943,7 +943,7 @@ section.home.light .social-icons li a:hover {
   background-image: url(../images/dots-bg.svg);
   display: block;
   height: 37px;
-  left: -14px;
+  left: 20px;
   top: -14px;
   position: absolute;
   width: 37px;
@@ -1721,6 +1721,7 @@ select.portfolio-filter-mobile {
   font-weight:bold;
   padding-top: 10px;
 }
+
 .scroll-down.light .mouse {
   border-color: #353353;
 }
@@ -1778,6 +1779,7 @@ select.portfolio-filter-mobile {
   position: relative;
   width: 20px;
 }
+
 .mouse .wheel {
   background: #FFF;
   border-radius: 100%;
@@ -1815,18 +1817,114 @@ footer.footer.light {
 /*=================================================================*/
 /*                      DARK MODE                              
 /*=================================================================*/
+
+
 body.dark {
-  color: #FFF;
-  background-color: #353353;
+  color: #FFF !important;
+  background-color: #353353 !important;
+  transition-duration: 1000ms;
+  
 }
+
+
 body.dark .section-title {
-  color: #FFF;
+  color:white;
 }
 body.dark .section-title:before {
   background: url("../images/dots-bg-light.svg");
 }
+
+
+body.dark header.desktop-header-1.light .vertical-menu li a{
+  color: white;
+}
+
+body.dark header.mobile-header-1.light {
+  background: #353353;
+  transition-duration: 1000ms;
+}
+
+
+
+
+body.dark header.desktop-header-1{
+  color: white !important;
+  background-color: #353353;
+}
+
+
+
+body.dark header.mobile-header-1.light .menu-icon span:before{
+  background: white ;
+}
+
+body.dark header.mobile-header-1.light .menu-icon span:after{
+  background: white ;
+}
+
+body.dark header.mobile-header-1.light .menu-icon span{
+  background: white;
+}
+
+
+
+body.dark #home.light{
+  color: white !important;
+  background-color: #353353;
+  transition-duration: 1000ms;
+  
+  
+}
+
+
+
+
+body.dark section.home .intro h1 {
+  color: #FFF;
+  font-size: 36px;
+}
+body.dark section.home .intro span {
+  color: #FFF;
+  font-size: 16px;
+}
+body.dark section.home .social-icons li a {
+  color: #FFF;
+}
+
+
+
+
+
+
+
+
+body.dark .scroll-down.light span{
+  color:white;
+}
+
+
+body.dark .scroll-down.light .mouse{
+  border-color: white !important;
+}
+
+body.dark .scroll-down.light .mouse .wheel{
+  background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 body.dark .bg-dark {
-  background: #302f4e !important;
+  background: #302f4e ;
 }
 body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark h6 {
   color: #FFF;
@@ -1877,6 +1975,12 @@ body.dark .blog-page-section .blog-pagination ul li {
 body.dark .blog-page-section .blog-single {
   background-color: #302f4e !important;
 }
+
+
+
+
+
+
 
 /*=================================================================*/
 /*                     BUTTONS

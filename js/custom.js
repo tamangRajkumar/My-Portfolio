@@ -71,12 +71,15 @@ $(window).on('load', function() {
       /*=========================================================================
               Magnific Popup
       =========================================================================*/
+      
+      
+      // To make image Pop-up//
       $('.work-image').magnificPopup({
         type: 'image',
         closeBtnInside: false,
         mainClass: 'my-mfp-zoom-in',
       });
-
+      
       $('.work-content').magnificPopup({
         type: 'inline',
         fixedContentPos: true,
